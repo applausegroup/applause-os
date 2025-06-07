@@ -11,6 +11,7 @@ import {
   DevicePhoneMobileIcon,
   ChartPieIcon,
   TicketIcon,
+  SparklesIcon,
 } from '@heroicons/react/24/outline'
 import ApplauseLogo from './components/ApplauseLogo'
 
@@ -37,6 +38,14 @@ const tools = [
     icon: TicketIcon,
     href: 'https://applause-support-1f5fd2df48d8.herokuapp.com/',
     color: 'bg-purple-500',
+    available: true,
+  },
+  {
+    name: 'Experiments',
+    description: 'A/B testing and feature experimentation platform',
+    icon: SparklesIcon,
+    href: 'https://terra-connect-cyan.vercel.app',
+    color: 'bg-cyan-500',
     available: true,
   },
   {
