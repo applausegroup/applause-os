@@ -41,6 +41,14 @@ const tools = [
     available: true,
   },
   {
+    name: 'Encore Studio',
+    description: 'Web to app experiments and development studio',
+    icon: BeakerIcon,
+    href: 'https://encore-studio-irvb.vercel.app/',
+    color: 'bg-pink-500',
+    available: true,
+  },
+  {
     name: 'Experiments',
     description: 'A/B testing and feature experimentation platform',
     icon: SparklesIcon,
